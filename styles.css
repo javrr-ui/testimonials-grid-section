@@ -13,3 +13,9 @@
 	--dark-blue: hsl(219, 29%, 14%);
 	--black: hsl(0, 0%, 7%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
