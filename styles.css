@@ -65,6 +65,14 @@ body {
     background-color: var(--white);
     grid-column: 4 / span 1;
     grid-row: 1 / span 2;
+
+    h3, .quote {
+        color: var(--gray-500);
+    }
+
+    .author p, .testimonial-text {
+        color: var(--gray-400);
+    }
 }
 
 .testimonial-4 {
