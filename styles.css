@@ -20,6 +20,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: var(--gray-100);
+}
+
 .container { 
     display: grid;
     grid-template-columns: repeat(4, 1fr);  
