@@ -38,6 +38,21 @@ body {
     box-shadow: 2em 2em 4em rgba(0, 0, 0, 0.3);
 }
 
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.author img {
+    border-radius: 50%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
 .testimonial-1 {
     background-color: var(--purple-500);
     grid-column: 1 / span 2;
@@ -48,6 +63,10 @@ body {
 
     .author p, .testimonial-text {
         color: var(--purple-300);
+    }
+
+    .author img {
+        border: 0.20em solid var(--purple-300);
     }
 }
 
@@ -61,6 +80,10 @@ body {
 
     .author p, .testimonial-text {
         color: var(--gray-400);
+    }
+
+    .author img {
+        border: 0.20em solid var(--gray-400);
     }
 }
 
@@ -76,16 +99,28 @@ body {
     .author p, .testimonial-text {
         color: var(--gray-400);
     }
+
+    .author img {
+        border: 0.20em solid var(--white0);
+    }
 }
 
 .testimonial-4 {
     background-color: var(--white);
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
+
+    .author img {
+        border: 0.20em solid var(--white);
+    }
 }
 
 .testimonial-5 {
     background-color: var(--dark-blue);
     grid-column: 2 / span 2;
     grid-row: 2 / span 1;
+
+    .author img {
+        border: 0.20em solid var(--purple-500);
+    }
 }
