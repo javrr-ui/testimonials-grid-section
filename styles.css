@@ -29,11 +29,13 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2em;
+    padding: 3em;
 }
 
 .testimonial {
     padding:2em;
     border-radius: 0.5em;
+    box-shadow: 2em 2em 4em rgba(0, 0, 0, 0.3);
 }
 
 .testimonial-1 {
