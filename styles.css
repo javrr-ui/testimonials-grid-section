@@ -25,6 +25,11 @@
     grid-template-columns: repeat(4, 1fr);  
 }
 
+.testimonial {
+    padding:2em;
+    border-radius: 0.5em;
+}
+
 .testimonial-1 {
     background-color: var(--purple-500);
     grid-column: 1 / span 2;
