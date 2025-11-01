@@ -171,7 +171,7 @@ h3 {
         border: 0.20em solid var(--purple-500);
     }
 }
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 800px) {
     .quote-icon {
         display: none;
     }
