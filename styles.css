@@ -24,6 +24,11 @@ body {
     font-family: "Barlow Semi Condensed", sans-serif;
     background-color: var(--gray-100);
     font-size: 0.8125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
 }
 
 .container { 
@@ -31,6 +36,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 2em;
     padding: 3em;
+    max-width: 80em;
 }
 
 .testimonial {
@@ -46,6 +52,8 @@ body {
 }
 
 .author img {
+    width: 2.5em;
+    height: 2.5em;
     border-radius: 50%;
 }
 
